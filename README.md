@@ -3,8 +3,8 @@
   if you close it, re-open from main menu(esc),
   
   vmangos core is Progressive Vanilla Core aimed at all versions from 1.2 to 1.12
-  https://github.com/vmangos/core
-![UI](https://github.com/cbunting99/vbots/bots.jpg)
+
+![UI](bots.jpg)
 
 # how to install
 - download and rename folder name to vbots
