@@ -18,11 +18,8 @@
 # other notice
 - Notice, you have to be GM level 6 to use all commands
 - I'm not good at addon, i just added 32 buttons for each, if you know there is a better way to set the gear/spec template welcome to make PR
+- partybot add paladin is for alliance only, shaman is for horde only, you can change the source PlayerBotMgr.cpp line 806 and 814
 
-- To make an account a gm with the right permission level, type this in the mangosd console:
+else if (option == "paladin" && pPlayer->GetTeam() == ALLIANCE)
 
-account set gmlevel <name> 6
-
-so it would look like below
-
-account set gmlevel test1 6
+else if (option == "shaman" && pPlayer->GetTeam() == HORDE)
